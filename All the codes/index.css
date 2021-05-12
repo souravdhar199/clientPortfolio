@@ -1,3 +1,119 @@
-p{
-    color:red;
+*{
+
+margin: 0px;
+box-sizing: border-box;
+padding: 0px;
+background-color: #E0DFDB;
 }
+.parts li a{
+  text-decoration: none;
+}
+
+.parts li a:hover{
+color:#ED5D40 ;
+
+}
+.parts li{
+    list-style: none;
+    display: flex;
+   
+}
+.parts li :nth-child(1){
+    position: absolute;
+    width: 140px;
+    height: 30px;
+    left: 154.26px;
+    top: 51px;
+    
+    font-family: Aeonik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    
+    text-decoration-line: underline;
+    
+    color: #ED5D40;
+
+}
+
+.parts li :nth-child(2){
+    position: absolute;
+width: 116px;
+height: 22px;
+left: 454px;
+top: 55px;
+
+font-family: Aeonik;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+color: #0E1826;
+}
+.parts li :nth-child(3){
+    position: absolute;
+    width: 124px;
+    height: 22px;
+    left: 1047px;
+    top: 55px;
+    
+    font-family: Aeonik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */ 
+    color: #0E1826;
+}
+
+.parts li :nth-child(4){
+    position: absolute;
+    width: 21px;
+    height: 22px;
+    left: 1201px;
+    top: 55px;
+    
+    font-family: Aeonik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    letter-spacing: 0.5px;
+    
+    color: #0E1826;
+
+}
+
+
+.parts li :nth-child(5){
+    position: absolute;
+    width: 124px;
+    height: 22px;
+    left: 1252px;
+    top: 55px;
+    
+    font-family: Aeonik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-decoration-line: underline;
+    
+    color: #0E1826;
+
+}
+
+
+
+
+
+
+
+
+
