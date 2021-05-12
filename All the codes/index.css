@@ -195,16 +195,14 @@ p3{
     color: #0E1826;
 }
 
-p4{
+.img-main{
     position: absolute;
+    width: 551px;
+    height: 632px;
     left: 895px;
     top: 207px;
-    
-
-
-
-
 }
+
 
 
 
