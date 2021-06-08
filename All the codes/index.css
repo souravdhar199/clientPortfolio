@@ -1,209 +1,106 @@
 *{
-
-margin: 0px;
-box-sizing: border-box;
-padding: 0px;
-background-color: #E0DFDB;
-}
-.parts li a{
-  text-decoration: none;
-}
-
-.parts li a:hover{
-color:#ED5D40 ;
-
-}
-.parts li{
-    list-style: none;
-    display: flex;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
    
 }
-.parts li :nth-child(1){
-    position: absolute;
-    width: 140px;
-    height: 30px;
-    left: 154.26px;
-    top: 51px;
+body{
+    background-color:  #E0DFDB;
+    font-family: 'Noto Sans', sans-serif;
     
-    font-family: Aeonik;
-    font-style: normal;
-    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul li{
+ 
+    list-style: none;
+    padding: 3px;
+}
+
+/* Decorating the Navbar */
+
+.navContainer{
+padding: 2em 2em;
+overflow: hidden;   
+display: grid;
+grid-template-columns: 3fr 5fr 7fr ;
+align-items: center;
+}
+#navBar{
+    position: sticky;
+    top:0;
+    z-index: 2;
+}
+
+#navBar .Head{
+    font-weight: 400;
     font-size: 25px;
     line-height: 30px;
-    color: #ED5D40;
-    text-decoration: underline;
+ }
+
+ #navBar .designName{
+    color:#ED5D40;
+    text-decoration: underline;   
+    font-weight: bold;
     text-underline-position: under;
-    
+ }
 
-}
-.parts li :nth-child(2){
-    position: absolute;
-    width: 200px;
-    height: 30px;
-    left: 220px;
-    top:51px;
- 
-    
-    font-style: normal;
-    font-size: 25px;
-    line-height: 30px;
+.navContainer ul{
+    align-items: center;
+ display: flex;
+ justify-self: end;
  
 }
-.parts li :nth-child(3){
-    position: absolute;
-width: 116px;
-height: 22px;
-left: 454px;
-top: 55px;
+.navContainer ul li a{
 
-font-family: Aeonik;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 22px;
-/* identical to box height */
-color: #0E1826;
+    padding: 10px 15px;
+    align-items: center;
 }
-.parts li :nth-child(4){
-    position: absolute;
-    width: 124px;
-    height: 22px;
-    left: 1047px;
-    top: 55px;
-    
-    font-family: Aeonik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */ 
-    color: #0E1826;
-}
-.parts li :nth-child(5){
-    position: absolute;
-    width: 21px;
-    height: 22px;
-    left: 1201px;
-    top: 55px;
-    
-    font-family: Aeonik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 22px;
-    
-    letter-spacing: 0.5px;
-    
-    color: #0E1826;
 
-}
-.parts li :nth-child(6){
-    position: absolute;
-    width: 124px;
-    height: 22px;
-    left: 1252px;
-    top: 55px;
-    
-    font-family: Aeonik;
-    font-style: normal;
+.navContainer .Schedual{
+    text-decoration: underline;
+    font-size: 18px;
     font-weight: 500;
+    text-underline-position: under;
+}
+
+.dropMeeting{
     font-size: 18px;
-    line-height: 22px;
-    /* identical to box height */
-    
-    text-decoration-line: underline;
-    
-    color: #0E1826;
-}
-
-/*
-Working with the second header
-This is the introduction of this website. 
-*/
-
-p{
-
-    position: absolute;
-    width: 527px;
-    height: 212px;
-    left: 153px;
-    top: 269px;
-    
-    font-family: Aeonik;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 100px;
-    line-height: 120px;
-    display: flex;
-    align-items: flex-end;
-    letter-spacing: 0.5px;
-    
-    color: #292A2B;
-}
-
-p1{
-
-    position: absolute;
-    width: 429px;
-    height: 15px;
-    left: 153px;
-    top: 496px;
-    
-    background: #ED5D40;
-    border-radius: 20px;
-
-}
-
-p2{
-    position: absolute;
-    width: 581px;
-    height: 109px;
-    left: 154px;
-    top: 561px;
-    
-    font-family: Aeonik;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 23px;
-    line-height: 170%;
-    /* or 39px */
-    
-    display: flex;
-    align-items: flex-end;
-    letter-spacing: 1px;
-    
-    color: #3C3C3C;
-
-}
-
-p3{
-
-    position: absolute;
-    width: 262px;
-    height: 28px;
-    left: 154px;
-    top: 712px;
-    
-    font-family: Aeonik;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 23px;
-    line-height: 28px;
-    /* identical to box height */
-    
-    
-    color: #0E1826;
-}
-
-.img-main{
-    position: absolute;
-    width: 551px;
-    height: 632px;
-    left: 895px;
-    top: 207px;
 }
 
 
+.navContainer ul li i{
+    font-size: 30px;
+    font-weight: none;
+    color:#ED5D40;
+    transform: rotate(-30deg);
+   
+}
+.navContainer ul li a:hover{
+  background-color: #ED5D40;
+  color: white;
+   
+}
+
+  
+/* Navbar decoration done */
+      
+   
+   
+   
+
+
+
+
+
+ 
+
+.
+    
+    
 
 
 
@@ -213,7 +110,5 @@ p3{
 
 
 
-
-
-
+ 
 
