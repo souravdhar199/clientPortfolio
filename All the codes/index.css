@@ -17,28 +17,30 @@ a{
 ul li{
  
     list-style: none;
-    padding: 3px;
+    padding: 0px 3px;
+    
 }
 
 /* Decorating the Navbar */
 
 .navContainer{
-padding: 2em 2em;
+padding: 55px 5%;
 overflow: hidden;   
 display: grid;
 grid-template-columns: 3fr 5fr 7fr ;
 align-items: center;
+
 }
 #navBar{
     position: sticky;
     top:0;
-    z-index: 2;
+    
 }
 
 #navBar .Head{
     font-weight: 400;
     font-size: 25px;
-    line-height: 30px;
+   
  }
 
  #navBar .designName{
@@ -88,7 +90,68 @@ align-items: center;
   
 /* Navbar decoration done */
       
-   
+/*Section  1 starts here  */
+
+.intro-Container{
+    padding: 60px 5%;
+    
+}
+
+.intro{
+font-size: 100px;
+font-weight: 700;
+max-width: 527px;
+max-height: 212px;
+margin-bottom:30px;
+margin-top:40px
+
+
+}
+/* Adjusting the line div height */
+.line-image{
+max-width: 429px;
+max-height: 15px;    
+}
+.line-image img{
+
+  width: 100%;
+  height: 100%;
+}
+/* I help ..... */
+.intro-sec1{
+ margin-top: 40px;
+max-width: 581px;
+max-height: 194px;
+
+}
+
+.intro-sec1 p{
+    font-size: 23px;
+    line-height: 39.1px;
+}
+.intro-sec1 p span{
+    font-weight: bold;
+}
+
+.book-free{
+    margin-top: 40px;
+}
+
+.book-free a{
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 28px;
+    text-decoration: underline;
+    padding: 10px 1px;
+    
+}
+.book-free a:hover{
+    background-color: #ED5D40;
+    color: black;
+}
+
+
+
    
    
 
