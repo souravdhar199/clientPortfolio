@@ -39,11 +39,12 @@ align-items: center;
 }
 #navBar{
     position: sticky;
-    top:0;
+
     
 }
 
 #navBar .Head{
+    padding: 10px 5px;
     font-weight: 400;
     font-size: 25px;
    
@@ -54,9 +55,11 @@ align-items: center;
     text-decoration: underline;   
     font-weight: bold;
     text-underline-position: under;
+   
  }
 
 .navContainer ul{
+
     align-items: center;
  display: flex;
  justify-self: end;
@@ -79,6 +82,11 @@ align-items: center;
     font-size: 18px;
 }
 
+.second{
+    font-size: 18px;
+    padding: 10px 5px;
+}
+
 
 .navContainer ul li i{
     font-size: 30px;
@@ -98,9 +106,6 @@ align-items: center;
       
 /*Section  1 starts here  */
 
-.main-section{
-  
-}
 
 .intro-Container{
    
@@ -111,7 +116,7 @@ align-items: center;
     grid-template-areas: 
     'intro  mainpic '
     'lineimage  mainpic '
-    'introsec1  mainpic '
+    'introsec1  mainpic'
     'bookfree  mainpic ' ;   
   
    
@@ -200,47 +205,85 @@ grid-area:introsec1 ;
 }
 
 .mainpic{  
-
+position: relative;
 max-width: 610px;
 max-height: 632px;
-background-size: cover;
+
 justify-self: end;
 grid-area: mainpic;
 }
 
 
 
-.bottom-box{  
+.mainpic .bottom-box{  
+
+
 text-align: center;
-border: red solid;
+
 background-color: #E0DFDB;
 max-width: 215px;
-height: 75px;
+max-height: 75px;
 display: grid;
-grid-template-columns:1fr 1fr 1fr;
+grid-template-columns:auto auto auto;
+
+
+
 
 
 }
 .bottom-box a i{
 
-    font-size: 25px;
-   padding: 5px 5px;
+   font-size: 25px;
+   padding:0px 2px;
+}
+.bottombox-parent{
+  
+
+display: block;
+
+    position: absolute;
+    bottom: 0px;
+    left: 400px;
+    object-fit: cover;
+    z-index: .1;
+  
+    
 }
 
-
-
+/* this is the box for twitter driible */
 .bottom-box a{
+    padding : 20px 20px;
     text-align: center;
-    padding: 20px 20px;
+
+ 
 }
 
 .bottom-box a i:hover{
 text-decoration: underline  #ED5D40;
-font-weight: bold;
+font-weight: 800;
 text-underline-position: under;
 
 }
 
+/* section 2 coustomer review starts here */
+
+.secondSection{
+  
+    margin-top:140px;
+    padding-left: 153px;
+    padding-right: 160px;
+   text-align: center;
+    
+  
+}
+.section2{
+
+max-width: fit-content;
+height: 493px;
+background-color: #1F1F1F
+;
+
+}
 
 
 
