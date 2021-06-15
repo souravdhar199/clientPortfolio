@@ -23,25 +23,22 @@ ul li{
 
 /* Decorating the Navbar */
 
-.main-head{
-  
-}
+
 .navContainer{
+    position: sticky;
     padding-top: 55px;
     padding-left: 153px;
     padding-right: 249px;
+    width: 100%;
+
     
 overflow: hidden;   
 display: grid;
-grid-template-columns: 3fr 5fr 7fr ;
+grid-template-columns: 3fr 5fr 4fr ;
 align-items: center;
 
 }
-#navBar{
-    position: sticky;
 
-    
-}
 
 #navBar .Head{
     padding: 10px 5px;
@@ -59,10 +56,10 @@ align-items: center;
  }
 
 .navContainer ul{
-
+    justify-self: end;
     align-items: center;
  display: flex;
- justify-self: end;
+
  
 }
 .navContainer ul li a{
@@ -105,19 +102,24 @@ align-items: center;
 /* Navbar decoration done */
       
 /*Section  1 starts here  */
-
-
-.intro-Container{
-   
-    padding-top: 126px;
+.main-section{
+    margin-top: 126px;
     padding-left: 153px;
     padding-right: 249px;
+
+}
+
+.intro-Container{
+ 
     display: grid;
     grid-template-areas: 
-    'intro  mainpic '
-    'lineimage  mainpic '
-    'introsec1  mainpic'
-    'bookfree  mainpic ' ;   
+    'intro mainpic '
+    'lineimage mainpic  '
+    'introsec1 mainpic '
+    'bookfree mainpic '
+    'section2 section2';   
+
+
   
    
 }
@@ -128,7 +130,7 @@ margin-top: 70px;
 font-size: 100px;
 font-weight: 700;
 max-width: 527px;
-max-height: 212px;
+min-height: 212px;
 
 grid-area: intro;
 
@@ -151,9 +153,9 @@ grid-area: lineimage ;
 }
 /* I help ..... */
 .intro-sec1{
-margin-top: 50px;
+padding-top: 50px;
 max-width: 581px;
-max-height: 194px;
+min-height: 194px;
 grid-area:introsec1 ;
 
 }
@@ -169,7 +171,7 @@ grid-area:introsec1 ;
 
 .book-free{
 
-    margin-top: 35px;
+    padding-top: 35px;
 
 
     grid-area: bookfree;
@@ -196,21 +198,25 @@ grid-area:introsec1 ;
     padding-left: 30px;   
 }
 
-.mainpic img{
-   width: 100%;
-   height: 100%;
 
-  
-
-}
 
 .mainpic{  
-position: relative;
-max-width: 610px;
-max-height: 632px;
 
+
+background:url(mainpic.png);
+background-size: cover;
+width: 610px;
 justify-self: end;
+min-height: 632px;
+padding-top:561px;
+padding-left: 395px;
+background-position: center;
 grid-area: mainpic;
+
+
+
+
+
 }
 
 
@@ -236,27 +242,14 @@ grid-template-columns:auto auto auto;
    font-size: 25px;
    padding:0px 2px;
 }
-.bottombox-parent{
-  
 
-display: block;
 
-    position: absolute;
-    bottom: 0px;
-    left: 400px;
-    object-fit: cover;
-    z-index: .1;
-  
-    
-}
-
-/* this is the box for twitter driible */
 .bottom-box a{
     padding : 20px 20px;
     text-align: center;
 
  
-}
+} 
 
 .bottom-box a i:hover{
 text-decoration: underline  #ED5D40;
@@ -267,24 +260,182 @@ text-underline-position: under;
 
 /* section 2 coustomer review starts here */
 
-.secondSection{
-  
-    margin-top:140px;
-    padding-left: 153px;
-    padding-right: 160px;
-   text-align: center;
-    
-  
-}
+
 .section2{
 
-max-width: fit-content;
-height: 493px;
-background-color: #1F1F1F
-;
+    margin-top:140px;
+    max-width: 1500px;
+    height: 493px;
+background-color: #1F1F1F;
+grid-area: section2;
 
 }
 
+
+/* intro 2 starts here */
+
+.intro2{
+
+margin-top: 130px;
+}
+/* your website should */
+.intro2 .intro2-p1{
+
+    padding-left: 263px;
+    padding-right: 613px;
+    font-size: 75px;
+    line-height: 90px;
+
+}
+
+.intro2-p1 p{
+   
+    max-width: 728px;
+    min-height: 279px;
+    color: #3C3C3C;
+
+}
+.bold1, .bold2, .bold3{
+    font-weight: bold;
+}
+
+
+/* Its;s like having a top..... */
+.intro2 .intro2-p2{
+    margin-top:35px;
+    padding-left: 263px;
+    padding-right: 563px;
+}
+.intro2 .intro2-p2 p{
+    max-width: 778px;
+   min-height: 110px;
+   font-size: 35px;
+line-height: 145%;
+}
+/* this is the second line */
+.intro2 .imgline-2{
+    margin-top: 8px;
+    padding-left: 263px;
+    padding-right: 845px;
+
+}
+ 
+.intro2 .intro2-p3{
+
+    margin-top: 35px;
+  
+    padding-left: 260px;
+    padding-right: 736px;
+  
+}
+
+ 
+.intro2 .intro2-p3 p{
+    max-width: 700px;
+    min-height: 175px;
+    font-size: 23px;
+    line-height: 35px;
+}
+
+.intro2 .intro2-p4{
+   margin-top: 35px;
+   padding-left: 260px;
+   padding-right: 714px;
+  
+}
+
+.intro2 .intro2-p4 p{
+    max-width: 700px;
+    min-height: 140px;
+    font-size: 23px;
+line-height: 35px;
+}
+
+.intro2 .dropMeeting{
+  margin-top: 35px;
+  padding-left: 260px;
+  padding-right: 1099px;
+}
+
+.intro2 .dropMeeting a{
+font-size: 23px;
+line-height: 28px;
+  }
+  
+
+  .intro2 .dropMeeting a:hover{
+font-weight: bold;
+text-decoration: underline;
+      }
+    
+/* section 4 strts here */
+    
+.section4{
+    margin-top: 135px ;
+    padding-left: 153px;
+    padding-right: 160px;
+    margin-bottom:100px;
+   
+}
+
+.section4-wrapper{
+  
+    max-width: 1500px;
+   height: 794px;
+ background-color: #DAD8D3;
+ padding:30px 110px;
+
+}
+
+.section4-intro {
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+      
+    }
+
+.section4-intro p, a{
+font-weight: 500;
+font-size: 23px;
+line-height: 135%;
+
+
+}
+
+.section4-items{
+    margin-top: 68px ;
+    display: grid;
+grid-template-columns: 1fr 1fr;
+column-gap: 30px;
+row-gap: 30px;
+
+
+
+}
+.section4-items P{
+    margin-top: 25PX;
+    font-size: 20px;
+    line-height: 33px;
+
+    
+}
+
+    .section4-items h1{
+        font-weight: 500;
+        font-size: 23px;
+        line-height: 135%;
+
+        
+    }
+
+.section4-item1,.section4-item2, .section4-item3, .section4-item4{
+
+border:#9F9F9F 1px solid;
+-width: 520px;
+height: 259px;
+padding: 45px 50px;
+
+}
 
 
 
