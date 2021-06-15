@@ -23,19 +23,32 @@ ul li{
 
 /* Decorating the Navbar */
 
-
-.navContainer{
+#navBar{
     position: sticky;
+    z-index: 2;
+    justify-content: start;
     padding-top: 55px;
     padding-left: 153px;
     padding-right: 249px;
-    width: 100%;
+}
+.navContainer{
+ 
+    max-width: 1400px;
+    display: grid;
+    align-items: center;
+    justify-content: start;
+    grid-template-columns: 3fr 4fr 5fr;
+    
+  
+  
+
+
 
     
-overflow: hidden;   
-display: grid;
-grid-template-columns: 3fr 5fr 4fr ;
-align-items: center;
+
+
+
+
 
 }
 
@@ -56,9 +69,11 @@ align-items: center;
  }
 
 .navContainer ul{
-    justify-self: end;
     align-items: center;
  display: flex;
+ justify-content: center;
+ justify-self: end;
+
 
  
 }
@@ -76,10 +91,12 @@ align-items: center;
 }
 
 .dropMeeting{
+
     font-size: 18px;
 }
 
 .second{
+    
     font-size: 18px;
     padding: 10px 5px;
 }
@@ -112,6 +129,7 @@ align-items: center;
 .intro-Container{
  
     display: grid;
+    justify-content: start;
     grid-template-areas: 
     'intro mainpic '
     'lineimage mainpic  '
@@ -202,11 +220,11 @@ grid-area:introsec1 ;
 
 .mainpic{  
 
-
+margin-left: 215px;
 background:url(mainpic.png);
 background-size: cover;
 width: 610px;
-justify-self: end;
+
 min-height: 632px;
 padding-top:561px;
 padding-left: 395px;
