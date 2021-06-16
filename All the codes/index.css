@@ -8,6 +8,8 @@
 body{
     background-color:  #E0DFDB;
     font-family: 'Noto Sans', sans-serif;
+    margin: 45px 155px;
+   justify-content: center;
     
 }
 a{
@@ -27,9 +29,7 @@ ul li{
     position: sticky;
     z-index: 2;
     justify-content: start;
-    padding-top: 55px;
-    padding-left: 153px;
-    padding-right: 249px;
+
 }
 .navContainer{
  
@@ -37,17 +37,8 @@ ul li{
     display: grid;
     align-items: center;
     justify-content: start;
-    grid-template-columns: 3fr 4fr 5fr;
+    grid-template-columns: 2fr 4fr auto;
     
-  
-  
-
-
-
-    
-
-
-
 
 
 }
@@ -121,8 +112,6 @@ ul li{
 /*Section  1 starts here  */
 .main-section{
     margin-top: 126px;
-    padding-left: 153px;
-    padding-right: 249px;
 
 }
 
@@ -130,6 +119,7 @@ ul li{
  
     display: grid;
     justify-content: start;
+;
     grid-template-areas: 
     'intro mainpic '
     'lineimage mainpic  '
@@ -137,24 +127,31 @@ ul li{
     'bookfree mainpic '
     'section2 section2';   
 
+ 
 
-  
+
    
 }
 
-.intro{
-
-margin-top: 70px;
-font-size: 100px;
-font-weight: 700;
-max-width: 527px;
-min-height: 212px;
-
+.intro {
+border: red solid;
+padding-top: 70px;
 grid-area: intro;
 
 
 
+}
 
+.intro p{
+   
+    border: green solid;
+    font-size: 100px;
+    font-weight: 700;
+    max-width: 527px;
+    min-height: 212px;
+   
+   
+    
 }
 /* Adjusting the line div height */
 .line-image{
@@ -220,14 +217,12 @@ grid-area:introsec1 ;
 
 .mainpic{  
 
-margin-left: 215px;
-background:url(mainpic.png);
-background-size: cover;
-width: 610px;
 
-min-height: 632px;
-padding-top:561px;
-padding-left: 395px;
+background:url(mainpic.png) no-repeat;
+background-size: cover;
+width: 551px;
+height: 532px ;
+
 background-position: center;
 grid-area: mainpic;
 
@@ -299,8 +294,7 @@ margin-top: 130px;
 /* your website should */
 .intro2 .intro2-p1{
 
-    padding-left: 263px;
-    padding-right: 613px;
+  
     font-size: 75px;
     line-height: 90px;
 
@@ -321,8 +315,7 @@ margin-top: 130px;
 /* Its;s like having a top..... */
 .intro2 .intro2-p2{
     margin-top:35px;
-    padding-left: 263px;
-    padding-right: 563px;
+ 
 }
 .intro2 .intro2-p2 p{
     max-width: 778px;
@@ -333,8 +326,7 @@ line-height: 145%;
 /* this is the second line */
 .intro2 .imgline-2{
     margin-top: 8px;
-    padding-left: 263px;
-    padding-right: 845px;
+   
 
 }
  
@@ -342,8 +334,6 @@ line-height: 145%;
 
     margin-top: 35px;
   
-    padding-left: 260px;
-    padding-right: 736px;
   
 }
 
@@ -357,8 +347,7 @@ line-height: 145%;
 
 .intro2 .intro2-p4{
    margin-top: 35px;
-   padding-left: 260px;
-   padding-right: 714px;
+
   
 }
 
@@ -371,8 +360,7 @@ line-height: 35px;
 
 .intro2 .dropMeeting{
   margin-top: 35px;
-  padding-left: 260px;
-  padding-right: 1099px;
+ 
 }
 
 .intro2 .dropMeeting a{
@@ -390,8 +378,7 @@ text-decoration: underline;
     
 .section4{
     margin-top: 135px ;
-    padding-left: 153px;
-    padding-right: 160px;
+
     margin-bottom:100px;
    
 }
@@ -399,7 +386,7 @@ text-decoration: underline;
 .section4-wrapper{
   
     max-width: 1500px;
-   height: 794px;
+   min-height: 794px;
  background-color: #DAD8D3;
  padding:30px 110px;
 
@@ -435,6 +422,8 @@ row-gap: 30px;
     font-size: 20px;
     line-height: 33px;
 
+
+
     
 }
 
@@ -449,13 +438,28 @@ row-gap: 30px;
 .section4-item1,.section4-item2, .section4-item3, .section4-item4{
 
 border:#9F9F9F 1px solid;
--width: 520px;
-height: 259px;
+
+min-height: 259px;
 padding: 45px 50px;
 
 }
 
+/* section 5 starts here */
 
+.section5-title{
+    margin-top: 37px;
+   
+}
+
+.section5-titleWrap{
+    border: red solid;
+    display: flex;
+}
+
+.section5-titleWrap {
+    border: red solid;
+    display: flex;
+}
 
 
 
