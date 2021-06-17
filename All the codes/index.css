@@ -227,32 +227,27 @@ grid-area:introsec1 ;
 
 
 .mainpic{  
-
-
 background:url(mainpic.png) no-repeat;
 background-size: cover;
 width: 551px;
-min-height: 532px ;
+height: 100% ;
+
 
 background-position: center;
 grid-area: mainpic;
-
-
-
-
 
 }
 
 
 
 .mainpic .bottom-box{  
-
+margin-top: 532px;
 
 text-align: center;
-
+position: sticky;
 background-color: #E0DFDB;
 max-width: 215px;
-max-height: 75px;
+min-height: 75px;
 display: grid;
 grid-template-columns:auto auto auto;
 
