@@ -5,10 +5,15 @@
    
    
 }
+.mainContainer{
+    border: red solid;
+    padding: 45px 155px;
+    margin:45px 155px;
+}
 body{
     background-color:  #E0DFDB;
     font-family: 'Noto Sans', sans-serif;
-    margin: 45px 155px;
+
    justify-content: center;
     
 }
@@ -125,7 +130,9 @@ ul li{
     'lineimage mainpic  '
     'introsec1 mainpic '
     'bookfree mainpic '
-    'section2 section2';   
+    'section2 section2';  
+    
+    column-gap: 215px ;
 
  
 
@@ -134,7 +141,7 @@ ul li{
 }
 
 .intro {
-border: red solid;
+
 padding-top: 70px;
 grid-area: intro;
 
@@ -144,8 +151,9 @@ grid-area: intro;
 
 .intro p{
    
-    border: green solid;
-    font-size: 100px;
+
+
+    font-size:100px;
     font-weight: 700;
     max-width: 527px;
     min-height: 212px;
@@ -168,12 +176,15 @@ grid-area: lineimage ;
 }
 /* I help ..... */
 .intro-sec1{
+
 padding-top: 50px;
 max-width: 581px;
 min-height: 194px;
 grid-area:introsec1 ;
 
 }
+
+
 
 .intro-sec1 p{
 
@@ -221,7 +232,7 @@ grid-area:introsec1 ;
 background:url(mainpic.png) no-repeat;
 background-size: cover;
 width: 551px;
-height: 532px ;
+min-height: 532px ;
 
 background-position: center;
 grid-area: mainpic;
