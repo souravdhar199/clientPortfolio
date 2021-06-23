@@ -5,14 +5,13 @@
    
    
 }
-.mainContainer{
-    border: red solid;
-    padding: 45px 155px;
-    margin:45px 155px;
-}
+
 body{
+  
+    margin: 55px 155px;
     background-color:  #E0DFDB;
     font-family: 'Noto Sans', sans-serif;
+    text-align: start;
 
    justify-content: center;
     
@@ -38,7 +37,8 @@ ul li{
 }
 .navContainer{
  
-    max-width: 1400px;
+
+  
     display: grid;
     align-items: center;
     justify-content: start;
@@ -118,56 +118,40 @@ ul li{
 .main-section{
     margin-top: 126px;
 
+
 }
 
-.intro-Container{
+.mainsection .intro-Container{
  
-    display: grid;
-    justify-content: start;
-;
-    grid-template-areas: 
-    'intro mainpic '
-    'lineimage mainpic  '
-    'introsec1 mainpic '
-    'bookfree mainpic '
-    'section2 section2';  
-    
-    column-gap: 215px ;
-
- 
-
-
-   
+     display: grid;
+     grid-template-columns: repeat(1, 5fr);
+  
 }
 
 .intro {
 
-padding-top: 70px;
-grid-area: intro;
-
-
-
-}
-
-.intro p{
-   
-
-
-    font-size:100px;
+    margin-top: 70px;
+    font-size: 100px;
     font-weight: 700;
     max-width: 527px;
     min-height: 212px;
-   
-   
+
+    margin-top:40px;
     
+
+   
+
 }
+
+
 /* Adjusting the line div height */
 .line-image{
+
 text-align: center;
 margin-top: 15px;
 max-width: 429px;
 max-height: 15px;
-grid-area: lineimage ;    
+  
 }
 .line-image img{
 
@@ -180,7 +164,7 @@ grid-area: lineimage ;
 padding-top: 50px;
 max-width: 581px;
 min-height: 194px;
-grid-area:introsec1 ;
+
 
 }
 
@@ -200,7 +184,6 @@ grid-area:introsec1 ;
     padding-top: 35px;
 
 
-    grid-area: bookfree;
 }
 
 .book-free a{
@@ -226,20 +209,22 @@ grid-area:introsec1 ;
 
 
 
-.mainpic{  
-background:url(mainpic.png) no-repeat;
-background-size: cover;
-width: 551px;
-height: 100% ;
 
+.mainpic{
 
-background-position: center;
-grid-area: mainpic;
+max-width: 552px;
+max-height: 623px ;
 
 }
 
 
+.mainpic img{
+    width: 100%;
+    height: auto;
+}
 
+
+/* 
 .mainpic .bottom-box{  
 margin-top: 532px;
 
@@ -268,14 +253,14 @@ grid-template-columns:auto auto auto;
     text-align: center;
 
  
-} 
+}  */
 
-.bottom-box a i:hover{
+/* .bottom-box a i:hover{
 text-decoration: underline  #ED5D40;
 font-weight: 800;
 text-underline-position: under;
 
-}
+} */
 
 /* section 2 coustomer review starts here */
 
@@ -286,7 +271,7 @@ text-underline-position: under;
     max-width: 1500px;
     height: 493px;
 background-color: #1F1F1F;
-grid-area: section2;
+
 
 }
 
@@ -394,7 +379,7 @@ text-decoration: underline;
     max-width: 1500px;
    min-height: 794px;
  background-color: #DAD8D3;
- padding:30px 110px;
+ padding:30px 0px;
 
 }
 

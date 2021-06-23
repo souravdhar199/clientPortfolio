@@ -1,0 +1,133 @@
+body{
+margin: 55px 30px;
+}
+
+
+
+.main-section{
+
+ margin: 10px 0px;
+    display: flex;
+
+}
+
+
+
+.intro {
+
+
+
+  padding-top: 40px;
+  font-size: 79px;
+  font-weight: 700;
+  max-width: 400px;
+  min-height: 212px;
+  margin-top:40px;
+  
+
+ 
+
+}
+
+
+/* Adjusting the line div height */
+.line-image{
+
+text-align: center;
+margin-top: 15px;
+max-width: 300px;
+max-height: 15px;
+
+}
+.line-image img{
+
+width: 100%;
+height: 100%;
+}
+/* I help ..... */
+.intro-sec1{
+
+padding-top: 50px;
+max-width: 400px;
+min-height: 194px;
+
+
+}
+
+.intro-sec1 p{
+
+  font-size: 23px;
+  line-height: 39.1px;
+}
+.intro-sec1 p span{
+  font-weight: bold;
+}
+
+.book-free{
+
+  padding-top: 35px;
+
+
+}
+
+.book-free a{
+  font-weight: bold;
+  font-size: 23px;
+  line-height: 28px;
+ 
+ 
+  
+}
+.book-free a:hover{
+    text-decoration: underline;
+}
+
+.arrow2 i{
+  
+ font-size: 60px;
+ 
+}
+.arrow2{
+  padding-left: 30px;   
+}
+
+
+
+
+.mainpic{
+padding-top: 80px;
+max-width: 300px;
+height: 500px ;
+
+
+
+
+}
+
+.mainpic img{
+  width: 100%;
+  height: 100%;
+}
+/* section 4 */
+
+.section4-wrapper{
+  
+  max-width: 100%;
+ min-height: 794px;
+background-color: #DAD8D3;
+padding:30px 5px;
+}
+
+/* section 2 */
+
+
+.intro2 .intro2-p2 p{
+
+  max-width: 100%;
+ min-height: 110px;
+ font-size: 31px;
+ display: grid;
+ grid-template-columns: inherit;
+
+}
+
