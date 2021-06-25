@@ -467,6 +467,7 @@ padding: 4.5rem 5.0rem;
 
 .section5-title{
     margin-top: 3.7rem;
+    padding-left: 10.8rem ;
    
 }
 
@@ -483,6 +484,169 @@ padding: 4.5rem 5.0rem;
 .section5-titleWrap i{
     color: #ED5D40;
 }
+/* all the projects  */
+.section5-items{
+
+margin-top: 6rem;
+padding-left: 10.8rem;
+
+}
+
+
+.sec5-box1 .sec5-img1{
+    max-width: 52.0rem;
+    height: 40.7rem;
+}
+
+.sec5-box1 .sec5-img1 img
+{width: 100%;height: 100%;}
+
+
+
+.sec5-box2 .sec5-img2{
+    max-width: 52.0rem;
+    height: 40.7rem;
+}
+
+.sec5-box2 .sec5-img2 img
+{width: 100%;height: 100%;}
+
+
+.sec5-box3 .sec5-img3{
+    max-width: 52.0rem;
+    height: 40.7rem;
+}
+
+.sec5-box3 .sec5-img3 img
+{width: 100%;height: 100%;}
+
+
+.sec5-box4 .sec5-img4{
+    max-width: 52.0rem;
+    height: 40.7rem;
+}
+
+.sec5-box4 .sec5-img4 img
+{width: 100%;height: 100%;}
+
+
+
+.section5-container{
+
+display: grid;
+grid-template-columns: auto auto;
+column-gap: 2.3rem;
+row-gap: 6rem;
+
+
+}
+/* all the headers in the box */
+.sec5-box1 h1 {
+margin-top:2.9rem;
+font-size: 2.2rem;
+font-weight: 500;
+}
+
+.sec5-box2 h1{
+    margin-top:2.9rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+
+}
+.sec5-box3 h1{
+    margin-top:2.9rem;
+    font-size: 2.2rem;
+    font-weight: 500;
+    }
+    
+    .sec5-box4 h1{
+        margin-top:2.9rem;
+        font-size: 2.2rem;
+        font-weight: 500;
+    }
+
+/*  all the paragraphs in the box */
+
+
+.sec5-box1 p {
+    margin-top:1.4rem;
+    font-size: 1.8rem;
+    max-width: 40rem  ;
+    line-height: 3rem;
+    margin-bottom: 2.5rem;
+    
+    }
+
+    
+.sec5-box2 p {
+    margin-top:1.4rem;
+    font-size: 1.8rem;
+    max-width: 40rem  ;
+    line-height: 3rem;
+    margin-bottom: 2.5rem;
+    
+    }
+    
+  
+    
+.sec5-box3 p {
+    margin-top:1.4rem;
+    font-size: 1.8rem;
+    max-width: 40rem  ;
+    line-height: 3rem;
+    margin-bottom: 2.5rem;
+   
+    
+    }
+    
+   
+.sec5-box4 p {
+    margin-top:1.4rem;
+    font-size: 1.8rem;
+    max-width: 40rem  ;
+    line-height: 3rem;
+    margin-bottom: 2.5rem;
+    
+    }
+ 
+    
+    /* all the a tags in sec5 boxes */
+  
+
+  
+    .sec5-box1 a {
+   
+      font-size: 2rem;
+      line-height: 2.4rem;
+      
+        
+ }
+
+ .sec5-box2 a {
+   
+    font-size: 2rem;
+    line-height: 2.4rem;
+    
+      
+}
+.sec5-box3 a {
+   
+    font-size: 2rem;
+    line-height: 2.4rem;
+    
+      
+}
+.sec5-box4 a {
+   
+    font-size: 2rem;
+    line-height: 2.4rem;
+    
+      
+}
+  
+        
+    
+
 
 
 
@@ -496,7 +660,7 @@ padding: 4.5rem 5.0rem;
     }
 
     
-@media (max-width:10px) {
+@media (max-width:1048px) {
     html{
         font-size: 40%;
     }
