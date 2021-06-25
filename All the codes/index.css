@@ -643,6 +643,122 @@ font-weight: 500;
     
       
 }
+
+/* section 6 starts here */
+
+.section6{
+    margin-top: 12.0rem;
+   
+}
+
+
+.section6-container{
+   max-width: 150.0rem;
+   padding:9.0rem 11.0rem ;
+   min-height: 63.2rem;
+   background:  #1F1F1F;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+ 
+   
+}
+
+.sec6part2{
+ margin-top: 16rem;
+ justify-self: end;
+
+   
+  
+}
+
+
+.sec6part1 h1{
+    margin-bottom: 7.5rem;
+    font-size: 7.5rem;
+    font-weight: bold;
+    line-height: 9rem;
+    color: #FFFFFF;
+
+}
+
+
+.sec6part1 .sec6title{
+
+    display: flex;
+  align-items: center;
+  
+
+}
+
+.sec6part1 .sec6title p{
+
+    width: 41.4rem;
+
+    height: 3.1rem;
+    font-weight: 500;
+    font-size: 2.3rem;
+    color: #FFFFFF;
+}
+
+
+.sec6part1 .sec6title i{
+   color: #ED5D40;
+   transform: rotate(50deg);
+  
+}
+
+
+.sec6p1, .sec6p2{
+    margin-top: 2.5rem ;
+    width: 44.1rem;
+    height: 12.0rem;
+    font-size: 1.8rem;
+    line-height: 3.0rem;
+    color: #E0E0E0;
+    
+}
+
+.s900{
+  font-weight: bold;
+  text-decoration: underline;
+  text-underline-position: under;
+  color: white;
+
+}
+
+
+
+.sec6part2 span{
+margin-bottom: 3.1rem;
+display: flex;
+align-items: center;
+
+
+}
+
+
+
+.sec6part2 span p{
+  font-weight: 500;
+  font-size: 2.3rem;
+  color: white;
+    
+}
+
+
+.sec6part2 span i{
+    color: #ED5D40;
+transform: rotate(-130deg);
+    
+      
+  }
+      
+    
+    
+
+
+
   
         
     
