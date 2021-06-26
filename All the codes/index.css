@@ -688,6 +688,7 @@ font-weight: 500;
     display: flex;
   align-items: center;
   
+  
 
 }
 
@@ -727,33 +728,71 @@ font-weight: 500;
 
 }
 
-
-
-.sec6part2 span{
-margin-bottom: 3.1rem;
-display: flex;
-align-items: center;
-
-
+.sec6part2{
+ 
+    padding-top: 2rem;
 }
 
-
-
-.sec6part2 span p{
+.sec6part2  p{
   font-weight: 500;
+  margin-bottom: 3rem;
   font-size: 2.3rem;
   color: white;
     
 }
 
+/* Have to fix this after bug  */
 
-.sec6part2 span i{
-    color: #ED5D40;
-transform: rotate(-130deg);
-    
-      
+/* 
+.sec6part2  p::after{
+  
+   content: "\f062";
+   font-family: 'Font Awesome s5 Free';
+    color: red;
+    width: 3rem;
+    height: 4rem;
   }
-      
+ */
+
+
+ /* 7th section starts here */
+
+.sec7{
+    margin-top:13.0rem; 
+ 
+    
+
+
+}
+
+
+.sec7 .sec7-container {
+    max-height: 442px;
+    min-width: 862px;
+    border-radius: nullpx;
+    padding-left: 11rem ;
+    padding-right: 40rem;
+ 
+    
+
+}
+
+.sec7 .sec7-container p {
+    font-size: 7.5rem;
+line-height: 120%;
+font-weight: normal;
+ 
+
+}
+
+.sec7 .sec7-container p span {
+ font-weight: bold;
+ 
+
+}
+    
+    
+    
     
     
 
