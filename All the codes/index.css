@@ -867,7 +867,6 @@ letter-spacing: 0.05rem;
     font-weight: none;
   
 }
-
 .sec9-item1 h1 span{
     color:#ED5D40;
     text-decoration: underline;   
@@ -877,7 +876,67 @@ letter-spacing: 0.05rem;
 
 /* sec10 starts here */
 
+.sec10{
+    margin-top: 5.5rem;
+    margin-bottom: 5rem;
+}
 
+.sec10-container{
+  
+    padding-left: 11rem;
+    display: grid;
+    grid-template-columns: 20rem 2fr 1fr;
+    column-gap: 5rem;
+ 
+}
+
+
+.sec10-container ul{
+    
+   display: flex;
+   justify-content: space-around;
+}
+
+.sec10-container ul a{
+      font-size: 1.7rem;
+  color:#3C3C3C;
+
+ }
+
+
+.sec10-container p{
+
+  font-size: 1.7rem;
+  color:#3C3C3C;
+  position: relative;
+  
+ }
+
+ .sec10-links a i{
+
+    font-size: 1.7rem;
+    color:#3C3C3C;
+
+ }
+
+ .sec10-links a {
+
+    font-size: 1.7rem;
+    color:#3C3C3C;
+
+ }
+
+ .sec10-container p::before{
+
+    font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f0e0";
+    margin-right: 1rem;
+   
+   }
+
+
+ 
+ 
+    
 
    
 
@@ -922,6 +981,24 @@ letter-spacing: 0.05rem;
     }
     
 }
+
+
+    
+@media (max-width:903px) {
+    html{
+        font-size: 35%;
+    }
+ 
+    body{
+  
+        margin: 5.5rem 13rem;
+
+    }
+ 
+    
+}
+       
+
        
 
 
