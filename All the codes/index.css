@@ -820,6 +820,7 @@ font-weight: normal;
 height: 3.5rem;
 letter-spacing: 0.05rem;
 
+
  
 }
 
@@ -829,18 +830,16 @@ letter-spacing: 0.05rem;
     top:0;
     left: 0;
     background: #ED5D40;
+ 
     width: 100%;
     height: 100%;
     transform: translate(-100%);
     transition: all 0.4s linear;
 
-    overflow: hidden;
+
     
 
 }
-
-
-
 .sec8-container div:hover:before{
     transform: translate(0);
     z-index: -1;
