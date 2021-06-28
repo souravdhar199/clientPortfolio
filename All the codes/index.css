@@ -846,6 +846,41 @@ letter-spacing: 0.05rem;
  
 }
 
+/* last section starts here */
+
+.sec9{
+    margin-top: 11.2rem;
+}
+
+
+ .sec9-item1{
+
+ padding:  1rem 0rem;
+
+
+}
+
+.sec9-item1 h1{
+    text-align: center;
+    font-size: 3rem;
+    line-height: 3.6rem;
+    font-weight: none;
+  
+}
+
+.sec9-item1 h1 span{
+    color:#ED5D40;
+    text-decoration: underline;   
+    font-weight: bold;
+    text-underline-position: under;
+}
+
+/* sec10 starts here */
+
+
+
+   
+
 
 
 
