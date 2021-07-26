@@ -480,6 +480,7 @@ text-decoration: underline;
 
     margin-top: 13.5rem ;
     margin-bottom:10.0rem;
+    transition: transform 1s, opacity 1s;
    
 }
 

@@ -38,7 +38,7 @@ const section4 = document.querySelector(".section4");
 
 const options ={
   root: null,
-  threshold:1
+  threshold:.15
 };
 
 
@@ -53,7 +53,7 @@ const sectionObserver=new IntersectionObserver(function(entries,sectionObserver)
 
 sectionObserver.observe(section4);
   
-  
+//section reveal done for one section
   
 
 
