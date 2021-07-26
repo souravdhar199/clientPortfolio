@@ -33,17 +33,27 @@ button.addEventListener("click",function(){
 
 // reveling elements started with section3
 
-const section3 = document.querySelector(".intro2");
+const section4 = document.querySelector(".section4");
 
-const reveal=function(entries, observer){
-  const [ens]=entries
 
+const options ={
+  root: null,
+  threshold:1
+};
+
+
+const sectionObserver=new IntersectionObserver(function(entries,sectionObserver){
+   entries.forEach(entry=>{
+     if(!entry.isIntersecting)return;
+     entry.target.classList.remove("section4-hide");
+     console.log(entry);
+   });
+}, options);
+
+
+sectionObserver.observe(section4);
   
-  };
-  const sectionObserver = new IntersectionObserver(reveal, {
-    root:null,
-    threshold:.15,
-  });
-  sectionObserver.observe(section3);
+  
+  
 
 

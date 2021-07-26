@@ -369,13 +369,9 @@ line-height: 3.6rem;
 
 
 /* intro 2 starts here */
-.intro2--hide{
-    opacity: 0;
-    transform: translateY(2rem);
-}
+
 
 .intro2{
-
 padding-left: 10.8rem;
 margin-top: 13.0rem;
 }
@@ -471,10 +467,18 @@ text-decoration: underline;
     
 /* section 4 strts here */
     
+.section4-hide{
+    opacity: 0;
+    transform: translateY(8rem);
+    
+
+}
+
+
+
 .section4{
 
     margin-top: 13.5rem ;
-
     margin-bottom:10.0rem;
    
 }
