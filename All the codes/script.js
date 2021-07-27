@@ -1,7 +1,7 @@
-const parentReview = document.querySelectorAll(".section2-container");
+
+
 
 const review = document.querySelectorAll(".comment");
-
 
 console.log(review);
 
@@ -31,6 +31,7 @@ button.addEventListener("click",function(){
  
 })
 
+
 // reveling elements started with section3
 
 const section4 = document.querySelector(".section4");
@@ -50,10 +51,27 @@ const sectionObserver=new IntersectionObserver(function(entries,sectionObserver)
    });
 }, options);
 
-
 sectionObserver.observe(section4);
   
-//section reveal done for one section
-  
+//section reveal done for one section4
+
+//intro2 reveal starts here
+const intro2 = document.querySelector(".intro2");
+const options2 ={
+  root: null,
+  threshold:.15
+};
+const intro2s=new IntersectionObserver(function(entries,intro2s){
+   entries.forEach(entry=>{
+     if(!entry.isIntersecting)return;
+     entry.target.classList.remove("intro2-hide");
+     console.log(entry);
+   });
+}, options2);
+
+
+intro2s.observe(intro2);
+
+// initro2 reveal done
 
 

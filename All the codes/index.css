@@ -275,6 +275,7 @@ padding: 2.3rem 0rem;
 text-decoration: underline  #ED5D40;
 font-weight: 800;
 text-underline-position: under;
+;
 
 } 
 
@@ -282,19 +283,23 @@ text-underline-position: under;
 
 
 .section2{
+
     margin-top:14.0rem;
     max-width: 100%;
     height: 49.3rem;
     background-color: #1F1F1F;
-    padding: 11rem 23rem;
+    padding: 10rem 0rem;
+    overflow: hidden;
+ 
 
 }
 
 .actionLinks{ 
+  
     display: flex;
     justify-content: flex-end;
-
-    margin-top: 6.4rem;
+ margin-top: 26.4rem;
+ margin-right: 20rem;
 }
 
 .actionLinks a {
@@ -314,6 +319,7 @@ text-underline-position: under;
 .actionLinks i:hover{
  color:#ED5D40;
 
+
 }
 
 .actionLinks a:hover{
@@ -326,25 +332,31 @@ text-underline-position: under;
 
 
 .section2-container{
-    display: flex;  
-    overflow: hidden;
+position: relative;
+
+
+   
+    
 
 }
 /*  */
 
 .comment{
+
     display: flex;
     min-width: 100%;
-    gap: 15.7rem;
+    justify-content: center;
+    position: absolute;
+    transition: transform 1s; 
+
 
    
-  
-    
 }
 
 
 .comment p{
-    width: 57.6rem;
+
+    width: 60.6rem;
     height: 16.8rem;
     font-size: 3rem;
     line-height: 4.2rem; 
@@ -356,7 +368,8 @@ text-underline-position: under;
 
 
 .comment h1{
-width: 19.1rem;
+
+width: 50.1rem;
 height: 7.4rem;
 color: #EDEDED;
 font-size: 3rem;
@@ -369,16 +382,21 @@ line-height: 3.6rem;
 
 
 /* intro 2 starts here */
+.intro2-hide{
+    opacity: 0;
+    transform: translateX(10rem);
+    
+
+}
 
 
 .intro2{
 padding-left: 10.8rem;
 margin-top: 13.0rem;
+transition: transform 1s, opacity 1s;
 }
 /* your website should */
 .intro2 .intro2-p1{
-
-  
     font-size: 7.5rem;
     line-height: 9.0rem;
 
