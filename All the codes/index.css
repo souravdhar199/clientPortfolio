@@ -39,9 +39,6 @@ ul li{
 
 }
 .navContainer{
- 
-
-  
     display: grid;
     align-items: center;
     justify-content: start;
@@ -83,37 +80,62 @@ ul li{
     align-items: center;
 }
 
-.navContainer .Schedual{
-    text-decoration: underline;
+ .Schedual{
     font-size: 1.8rem;
     font-weight: 500;
-    text-underline-position: under;
+    padding: 1rem 0rem ;
+    position: relative;
 }
 
 .dropMeeting{
-
     font-size: 1.8rem;
+    padding: 1rem 0rem;
+    position: relative;
 }
 
 .second{
-    
     font-size: 1.8rem;
     padding: 1.0rem .5rem;
 }
 
 
-.navContainer ul li i{
-    font-size: 3.0rem;
-    font-weight: none;
-    color:#ED5D40;
-    transform: rotate(-30deg);
-   
+
+.dropMeeting::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.3rem;
+    left:0;
+    bottom: 0;
+    background: #ED5D40;
+    transform:scale(0,1);
+    transition: transform 0.3s ease;
+
 }
-.navContainer ul li a:hover{
-  background-color: #ED5D40;
-  color: white;
-   
+.Schedual::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.3rem;
+    left:0;
+    bottom: 0;
+    background: #ED5D40;
+    transform:scale(0,1);
+    transition: transform 0.3s ease;
+
 }
+
+.dropMeeting:hover::after{
+    transform:scale(1,1);
+}
+.Schedual:hover::after{
+    transform:scale(1,1);
+}
+
+
+
+
+
 
   
 /* Navbar decoration done */
@@ -200,16 +222,28 @@ min-height: 19.4rem;
 }
 
 .book-free a{
-    font-weight: bold;
     font-size: 2.3rem;
     line-height: 2.8rem;
-   
-   
+    position: relative;
+    padding:1rem 0rem;  
     
 }
-.book-free a:hover{
-      text-decoration: underline;
-}
+.book-free a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.3rem;
+    left:0;
+    bottom: 0;
+    background: #ED5D40;
+    transform:scale(0,1);
+    transition: transform 0.3s ease;
+ }
+
+ .book-free a:hover::after{
+     transform: scale(1,1);
+ }
+
 
 .arrow2 i{
     
@@ -467,21 +501,36 @@ line-height: 145%;
 line-height: 3.5rem;
 }
 
-.intro2 .dropMeeting{
+.intro2 .dropMeetings{
   margin-top: 3.5rem;
  
 }
 
-.intro2 .dropMeeting a{
+.intro2 .dropMeetings a{
 font-size: 2.3rem;
 line-height: 2.8rem;
+position: relative;
+padding: 1rem;
   }
-  
+  .dropMeetings a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.3rem;
+    left:0;
+    bottom: 0;
+    background: #ED5D40;
+    transform:scale(0,1);
+    transition: transform 0.3s ease;
 
-  .intro2 .dropMeeting a:hover{
-font-weight: bold;
-text-decoration: underline;
-      }
+}
+
+.dropMeetings a:hover::after{
+    transform: scale(1,1);
+
+}
+
+
     
 /* section 4 strts here */
     
@@ -521,11 +570,37 @@ text-decoration: underline;
       
     }
 
-.section4-intro p, a{
+.section4-intro p{
 font-weight: 500;
 font-size: 2.3rem;
 
 
+
+}
+.books{
+    font-weight: 500;
+    font-size: 2.3rem;
+    width: 23.4rem;
+    padding: 1rem;
+    position: relative;
+
+}
+
+.books::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.3rem;
+    left:0;
+    bottom: 0;
+    background: #ED5D40;
+    transform:scale(0,1);
+    transition: transform 0.3s ease;
+
+}
+
+.books:hover::after{
+    transform: scale(1,1);
 
 }
 
@@ -725,28 +800,31 @@ font-weight: 500;
         
  }
 
- .sec5-box2 a {
-   
-    font-size: 2rem;
-    line-height: 2.4rem;
-    
-      
-}
-.sec5-box3 a {
-   
-    font-size: 2rem;
-    line-height: 2.4rem;
-    
-      
-}
-.sec5-box4 a {
-   
-    font-size: 2rem;
-    line-height: 2.4rem;
-    
-      
-}
+ .viewfull{
 
+    font-size: 2rem;
+    line-height: 2.4rem;
+    padding:1rem 0rem;
+    position: relative;
+ }
+
+ .viewfull::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 0.3rem;
+    left:0;
+    bottom: 0;
+    background: #ED5D40;
+    transform:scale(0,1);
+    transition: transform 0.3s ease;
+ }
+
+ .viewfull:hover::after{
+     transform: scale(1,1);
+ }
+
+ 
 /* section 6 starts here */
 
 .section6{
@@ -1100,6 +1178,23 @@ letter-spacing: 0.05rem;
  
     
 }
+
+    
+@media (max-width:800px) {
+    html{
+        font-size: 30%;
+    }
+ 
+    body{
+  
+        margin: 4.5rem 10rem;
+
+    }
+ 
+    
+}
+       
+
        
 
        
