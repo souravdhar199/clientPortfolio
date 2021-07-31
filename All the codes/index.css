@@ -39,6 +39,7 @@ ul li{
 
 }
 .navContainer{
+
     display: grid;
     align-items: center;
     justify-content: start;
@@ -97,9 +98,6 @@ ul li{
     font-size: 1.8rem;
     padding: 1.0rem .5rem;
 }
-
-
-
 .dropMeeting::after{
     content: '';
     position: absolute;
@@ -147,12 +145,6 @@ ul li{
     display: grid;
     grid-template-columns: 4fr 2fr;
  
-    
-    
-  
-   
-    
-
 
 }
 
@@ -390,8 +382,8 @@ position: relative;
 
 .comment p{
 
-    width: 60.6rem;
-    height: 16.8rem;
+    max-width: 60.6rem;
+    max-height: 16.8rem;
     font-size: 3rem;
     line-height: 4.2rem; 
     letter-spacing: .1rem;  
@@ -1190,9 +1182,14 @@ letter-spacing: 0.05rem;
         margin: 4.5rem 10rem;
 
     }
- 
     
 }
+@media (max-width:647px) {
+  body{
+    margin:0rem 3rem;
+  }
+}
+
        
 
        
