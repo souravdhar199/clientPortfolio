@@ -3,7 +3,7 @@ body{
   margin: 3rem 3.5rem;
 }
 html{
-  font-size: 27.2%;
+  font-size: 24.2%;
 }
 
 /* working on navbar */
@@ -83,15 +83,15 @@ margin-left: 16rem;
   }
 /* section 4 responsiveness */
 .section4-items P{
-  font-size: 2.3rem;
-  line-height: 3.5rem;  
+  font-size: 2.7rem;
+  line-height: 4.2rem;  
 }
 
   .section4-items h1{
-    font-size: 2.5rem;     
+    font-size: 3rem;     
   }
   .section4-wrapper{
-   min-height: 130.4rem;
+   min-height: 135.4rem;
 
   }
 
@@ -218,12 +218,29 @@ margin-left: 16rem;
   
 }
 
-@media (max-width:460px) {
+/* sec6 responsive */
+/* no need */
+/* sec7 responsive */
+.sec7 .sec7-container {
+
+  padding-left: 0rem ;
+  padding-right: 0rem;
+}
+@media (max-width:400px) {
   body{
-    margin:1rem 1rem;
+    margin:0rem 1rem;
   }
   html{
-      font-size: 25%;
+      font-size: 20%;
+  }
+}
+
+@media (max-width:450px) {
+  body{
+    margin:0rem 1rem;
+  }
+  html{
+      font-size: 22%;
   }
 }
 
