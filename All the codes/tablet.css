@@ -323,6 +323,16 @@ padding-left: 5rem;
   }
 }
 
+@media (max-width:426px) {
+  body{
+    margin:0rem 1rem;
+  }
+  html{
+      font-size: 18%;
+  }
+}
+
+
 
 
 
