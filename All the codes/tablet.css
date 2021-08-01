@@ -3,7 +3,7 @@ body{
   margin: 3rem 3.5rem;
 }
 html{
-  font-size: 24.2%;
+  font-size: 24.6%;
 }
 
 /* working on navbar */
@@ -219,12 +219,91 @@ margin-left: 16rem;
 }
 
 /* sec6 responsive */
-/* no need */
+.section6-container{
+padding-left: 4rem;  
+}
+.sec6p1, .sec6p2{
+
+  font-size: 2.2rem;
+  line-height: 4.0rem;
+
+   
+}
+.sec6part2  p{
+
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
+
+    
+}
+
+.sec6part2{
+  padding-top:2rem;
+}
+.sec6p2{
+  margin-top: 9rem;
+}
+.sec6part2{
+  padding-top: 4rem;
+}
+.sec6part1 .sec6title p{
+  font-size: 2.3rem;
+
+
+}
+
 /* sec7 responsive */
 .sec7 .sec7-container {
-
   padding-left: 0rem ;
   padding-right: 0rem;
+}
+
+/* section 10 */
+.sec9-item1 h1{
+
+  font-size: 5rem;
+  
+
+}
+.sec10-container ul a{
+  font-size: 2.5rem;
+
+
+}
+.sec10-container {
+padding-left: 5rem;
+  
+
+  
+ }
+ .sec10-contacts li {
+
+  font-size:2.5rem;
+}
+.sec10-contacts{
+  margin-left: 4rem;
+}
+ 
+
+ .sec10-container p {
+  font-size: 2.5rem;
+
+  
+    
+   }
+   
+ .sec10-container p::before{
+
+  font-size: 2.5rem;
+ 
+ }
+
+ .sec10-links a {
+
+  font-size: 2.5rem;
+  
+
+
 }
 @media (max-width:400px) {
   body{
