@@ -502,7 +502,7 @@ line-height: 3.5rem;
 font-size: 2.3rem;
 line-height: 2.8rem;
 position: relative;
-padding: 1rem;
+padding: 1rem 0rem;
   }
   .dropMeetings a::after{
     content: '';
@@ -556,6 +556,7 @@ padding: 1rem;
 }
 
 .section4-intro {
+
   padding-top: 3.1rem;
   display: grid;
   grid-template-columns: 2fr 1fr;
@@ -636,14 +637,14 @@ padding: 4.5rem 5.0rem;
 /* section 5 starts here */
 
 .section5-title{
-    margin-top: 3.7rem;
+
     padding-left: 10.8rem ;
    
 }
 
 .section5-titleWrap{
- 
     display: flex;
+   
 }
 
 .section5-titleWrap p,i{
@@ -659,6 +660,7 @@ padding: 4.5rem 5.0rem;
 
 margin-top: 6rem;
 padding-left: 10.8rem;
+
 
 }
 
@@ -702,7 +704,6 @@ padding-left: 10.8rem;
 
 
 .section5-container{
-
 display: grid;
 grid-template-columns: auto auto;
 column-gap: 2.3rem;
@@ -1190,6 +1191,17 @@ letter-spacing: 0.05rem;
   }
 }
 
+
+@media (max-width:px) {
+    body{
+      margin:0rem 1rem;
+    }
+    html{
+        font-size: 25%;
+    }
+  }
+  
+         
        
 
        
