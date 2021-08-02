@@ -332,7 +332,7 @@ padding-left: 5rem;
   }
 }
 
-@media (max-width:400px) {
+@media (min-width:400px) {
   body{
     margin:0rem 1rem;
   }
