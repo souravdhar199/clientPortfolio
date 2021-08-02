@@ -332,9 +332,9 @@ padding-left: 5rem;
   }
 }
 
-@media (min-width:400px) {
+@media (max-width:400px) {
   body{
-    margin:0rem 1rem;
+    margin:0rem 0rem;
   }
   html{
       font-size: 16%;
