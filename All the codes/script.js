@@ -75,3 +75,35 @@ intro2s.observe(intro2);
 // initro2 reveal done
 
 
+//sec2 reveal
+const testimonialparent = document.querySelector(".section2");
+const work ={
+  root: null,
+  threshold:.15
+};
+const testimonials=new IntersectionObserver(function(entries,testimonials){
+   entries.forEach(entry=>{
+     if(!entry.isIntersecting)return;
+     entry.target.classList.remove("section2-hide");
+     console.log(entry);
+   });
+}, work);
+
+
+testimonials.observe(testimonialparent);
+const works ={
+  root: null,
+  threshold:.15
+};
+//secc5 reveal
+const sec5 = document.querySelector(".section5-items");
+const sec5Observe=new IntersectionObserver(function(entries,sec5Observe){
+  entries.forEach(entry=>{
+    if(!entry.isIntersecting)return;
+    entry.target.classList.remove("section5-hide");
+    console.log(entry);
+  });
+}, works);
+
+
+sec5Observe.observe(sec5);

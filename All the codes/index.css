@@ -308,6 +308,7 @@ text-underline-position: under;
 /* section 2 coustomer review starts here */
 
 
+
 .section2{
 
     margin-top:14.0rem;
@@ -316,8 +317,14 @@ text-underline-position: under;
     background-color: #1F1F1F;
     padding: 10rem 0rem;
     overflow: hidden;
+    transition:transform 1s, opacity 9s;;
  
 
+}
+.section2-hide{
+    opacity: 0;
+    transform: translateX(5rem);
+    
 }
 
 .actionLinks{ 
@@ -632,6 +639,7 @@ padding: 4.5rem 5.0rem;
 
 /* section 5 starts here */
 
+
 .section5-title{
 
     padding-left: 10.8rem ;
@@ -656,8 +664,14 @@ padding: 4.5rem 5.0rem;
 
 margin-top: 6rem;
 padding-left: 10.8rem;
+transition: transform 3s, opacity 3s;
 
 
+}
+
+.section5-hide{
+    opacity: 0;
+    transform: translateY(10rem);
 }
 
 
