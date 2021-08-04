@@ -332,14 +332,6 @@ padding-left: 5rem;
   }
 }
 
-@media (max-width:300px) {
-  body{
-    margin:0rem 6rem;
-  }
-  html{
-      font-size: 10%;
-  }
-}
 
 
 
