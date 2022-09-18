@@ -277,11 +277,11 @@ i {
   }
 }
 
-@media (max-width: 200px) {
+@media (min-width: 300px) {
   body {
     margin: 0rem 1rem;
   }
   html {
-    font-size: 10%;
+    font-size: 12%;
   }
 }
