@@ -917,3 +917,12 @@ i {
     margin: 4rem 3rem;
   }
 }
+
+@media (max-width: px) {
+  body {
+    margin: 0rem 1rem;
+  }
+  html {
+    font-size: 25%;
+  }
+}
