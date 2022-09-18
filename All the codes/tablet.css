@@ -1,341 +1,287 @@
-
-body{
+body {
   margin: 3rem 3.5rem;
 }
-html{
+html {
   font-size: 24.6%;
 }
 
 /* working on navbar */
 
-.navContainer{
+.navContainer {
   display: grid;
   align-items: center;
   justify-content: start;
   grid-template-columns: 1fr;
-  
 }
-.navContainer ul{ 
+.navContainer ul {
   justify-self: center;
   font-size: 2.5rem;
   align-content: center;
- }
- #navBar .Head{
-   justify-self: center;
-   margin-bottom: 1.5rem;  
-   font-size: 4rem;
- }
-.second{
- display: none;
 }
-.Schedual{
+#navBar .Head {
+  justify-self: center;
+  margin-bottom: 1.5rem;
+  font-size: 4rem;
+}
+.second {
+  display: none;
+}
+.Schedual {
   font-size: 2.5rem;
 }
 
-.dropMeeting{
+.dropMeeting {
   font-size: 2.5rem;
- 
 }
 /* making section 2 resposnsive */
-.intro-sec1 p{
-
+.intro-sec1 p {
   font-size: 2.5rem;
   line-height: 3.91rem;
 }
-.book-free a{
+.book-free a {
   font-size: 2.5rem;
-
 }
 /*making testimonial responsive */
-.comment p{
+.comment p {
   max-width: 80.6rem;
-justify-self: center;
-
+  justify-self: center;
 }
-.comment h1{
-justify-self: center;
-margin-left: 17rem;
-
+.comment h1 {
+  justify-self: center;
+  margin-left: 17rem;
 }
 
-.comment{
+.comment {
   display: grid;
   grid-template-columns: 1fr;
   justify-content: center;
 }
-.actionLinks{
-justify-content: center;
-margin-left: 16rem;
+.actionLinks {
+  justify-content: center;
+  margin-left: 16rem;
 }
 /* making section three responsive */
-.intro2 .intro2-p3 p{
+.intro2 .intro2-p3 p {
   font-size: 2.8rem;
   line-height: 4.4rem;
 }
-.intro2 .intro2-p4 p{
+.intro2 .intro2-p4 p {
   font-size: 2.8rem;
   line-height: 4.4rem;
 }
-.intro2 .dropMeetings a{
+.intro2 .dropMeetings a {
   font-size: 2.8rem;
   line-height: 2.8rem;
   padding: 1rem 0rem;
-  }
+}
 /* section 4 responsiveness */
-.section4-items P{
+.section4-items P {
   font-size: 2.7rem;
-  line-height: 4.2rem;  
+  line-height: 4.2rem;
 }
 
-  .section4-items h1{
-    font-size: 3rem;     
-  }
-  .section4-wrapper{
-   min-height: 135.4rem;
+.section4-items h1 {
+  font-size: 3rem;
+}
+.section4-wrapper {
+  min-height: 135.4rem;
+}
 
-  }
-
-  .section4-items{
-    grid-template-columns: 1fr;
-  }
-  .section4-item1,.section4-item2, .section4-item3, .section4-item4{
-    max-width:100%;
-    min-height: 25.9rem;
-    padding: 4.5rem 5.0rem;
-    
-    }
-    .section4-intro p{
-     margin-top: 1rem;
-      font-size: 2.5rem;
- 
-      }
-      .books{
-          font-size: 2.5rem;
-          padding: 1rem 0rem;
-      }
+.section4-items {
+  grid-template-columns: 1fr;
+}
+.section4-item1,
+.section4-item2,
+.section4-item3,
+.section4-item4 {
+  max-width: 100%;
+  min-height: 25.9rem;
+  padding: 4.5rem 5rem;
+}
+.section4-intro p {
+  margin-top: 1rem;
+  font-size: 2.5rem;
+}
+.books {
+  font-size: 2.5rem;
+  padding: 1rem 0rem;
+}
 /*section 5 responsive */
-.section5-titleWrap{
-  margin-left:19%;
+.section5-titleWrap {
+  margin-left: 19%;
 }
 
-.section5-titleWrap p,i{
+.section5-titleWrap p,
+i {
   font-size: 3rem;
   font-weight: bold;
- 
 }
-.section5-items{
-
+.section5-items {
   margin-top: 6rem;
   padding-left: 0rem;
-  
-  }
+}
 
 .sec5-box1 h1 {
-  margin-top:2.9rem;
+  margin-top: 2.9rem;
   font-size: 2.7rem;
   font-weight: 500;
-  }
-  
-  .sec5-box2 h1{
-      margin-top:2.9rem;
-      font-size: 2.7rem;
-      font-weight: 500;
-  
-  }
-  .sec5-box3 h1{
-      margin-top:2.9rem;
-      font-size: 2.7rem;
-      font-weight: 500;
-      }
-      
-      .sec5-box4 h1{
-          margin-top:2.9rem;
-          font-size: 2.7rem;
-          font-weight: 500;
-      }
-  
-  /*  all the paragraphs in the box */
-  
-  
-  .sec5-box1 p {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-    max-width: 100%;
-      }
-  
-      
-  .sec5-box2 p {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-    max-width: 100%;
-      
-      }
-      
-    
-      
-  .sec5-box3 p {
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-    max-width: 100%;
-      
-      }
-      
-     
-  .sec5-box4 p {
-   
-    font-size: 2.5rem;
-    line-height: 3.5rem;
-    max-width: 100%;
-    }
-   
-      
-      /* all the a tags in sec5 boxes */
-    
-  
-    
-      .sec5-box1 a {
-        font-size: 2.5rem;
-        line-height: 2.5rem;
-        
-          
-   }
-.sec5-box2 a {
+}
 
+.sec5-box2 h1 {
+  margin-top: 2.9rem;
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+.sec5-box3 h1 {
+  margin-top: 2.9rem;
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+
+.sec5-box4 h1 {
+  margin-top: 2.9rem;
+  font-size: 2.7rem;
+  font-weight: 500;
+}
+
+/*  all the paragraphs in the box */
+
+.sec5-box1 p {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  max-width: 100%;
+}
+
+.sec5-box2 p {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  max-width: 100%;
+}
+
+.sec5-box3 p {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  max-width: 100%;
+}
+
+.sec5-box4 p {
+  font-size: 2.5rem;
+  line-height: 3.5rem;
+  max-width: 100%;
+}
+
+/* all the a tags in sec5 boxes */
+
+.sec5-box1 a {
   font-size: 2.5rem;
   line-height: 2.5rem;
-  
+}
+.sec5-box2 a {
+  font-size: 2.5rem;
+  line-height: 2.5rem;
 }
 .sec5-box3 a {
-     
   font-size: 2.5rem;
   line-height: 2.5rem;
-  
 }
 .sec5-box4 a {
-     
   font-size: 2.5rem;
   line-height: 2.5rem;
-  
 }
 
 /* sec6 responsive */
-.section6-container{
-padding-left: 4rem;  
+.section6-container {
+  padding-left: 4rem;
 }
-.sec6p1, .sec6p2{
-
+.sec6p1,
+.sec6p2 {
   font-size: 2.2rem;
-  line-height: 4.0rem;
-
-   
+  line-height: 4rem;
 }
-.sec6part2  p{
-
+.sec6part2 p {
   margin-bottom: 4rem;
   font-size: 2.5rem;
-
-    
 }
 
-.sec6part2{
-  padding-top:2rem;
+.sec6part2 {
+  padding-top: 2rem;
 }
-.sec6p2{
+.sec6p2 {
   margin-top: 9rem;
 }
-.sec6part2{
+.sec6part2 {
   padding-top: 4rem;
 }
-.sec6part1 .sec6title p{
+.sec6part1 .sec6title p {
   font-size: 2.3rem;
-
-
 }
 
 /* sec7 responsive */
 .sec7 .sec7-container {
-  padding-left: 0rem ;
+  padding-left: 0rem;
   padding-right: 0rem;
 }
 
 /* section 10 */
-.sec9-item1 h1{
-
+.sec9-item1 h1 {
   font-size: 5rem;
-  
-
 }
-.sec10-container ul a{
+.sec10-container ul a {
   font-size: 2.5rem;
-
-
 }
 .sec10-container {
-padding-left: 5rem;
-  
-
-  
- }
- .sec10-contacts li {
-
-  font-size:2.5rem;
+  padding-left: 5rem;
 }
-.sec10-contacts{
+.sec10-contacts li {
+  font-size: 2.5rem;
+}
+.sec10-contacts {
   margin-left: 4rem;
 }
- 
 
- .sec10-container p {
+.sec10-container p {
   font-size: 2.5rem;
+}
 
-  
-    
-   }
-   
- .sec10-container p::before{
-
+.sec10-container p::before {
   font-size: 2.5rem;
- 
- }
+}
 
- .sec10-links a {
-
+.sec10-links a {
   font-size: 2.5rem;
-  
-
-
 }
-@media (max-width:400px) {
-  body{
-    margin:0rem 1rem;
+@media (max-width: 400px) {
+  body {
+    margin: 0rem 1rem;
   }
-  html{
-      font-size: 20%;
+  html {
+    font-size: 20%;
   }
 }
 
-@media (max-width:450px) {
-  body{
-    margin:0rem 1rem;
+@media (max-width: 450px) {
+  body {
+    margin: 0rem 1rem;
   }
-  html{
-      font-size: 22%;
-  }
-}
-
-@media (max-width:426px) {
-  body{
-    margin:0rem 1rem;
-  }
-  html{
-      font-size: 18%;
+  html {
+    font-size: 22%;
   }
 }
 
+@media (max-width: 426px) {
+  body {
+    margin: 0rem 1rem;
+  }
+  html {
+    font-size: 18%;
+  }
+}
 
-
-
-
-
-
-      
+@media (max-width: 300px) {
+  body {
+    margin: 0rem 1rem;
+  }
+  html {
+    font-size: 15%;
+  }
+}
